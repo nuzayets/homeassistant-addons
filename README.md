@@ -1,22 +1,7 @@
 # Home Assistant add-on repository
 
-This repository provides the Home Assistant Add-Ons for Microsoft TTS and STT. 
 
 ## Add-ons
-
-This repository contains the following add-ons
-
-### [Microsoft Text-to-Speech](./microsoft-tts)
-
-![Supports aarch64 Architecture][aarch64-yes-shield]
-![Supports amd64 Architecture][amd64-yes-shield]
-![Supports armhf Architecture][armhf-no-shield]
-![Supports armv7 Architecture][armv7-no-shield]
-![Supports i386 Architecture][i386-no-shield]
-
-_Wyoming implementation of Microsoft Speech Service Text-to-Speech._
-
-Main repository: [hugobloem/wyoming-microsoft-tts](https://github.com/hugobloem/wyoming-microsoft-tts)
 
 ### [Microsoft Speech-to-Text](./microsoft-stt)
 
@@ -28,7 +13,7 @@ Main repository: [hugobloem/wyoming-microsoft-tts](https://github.com/hugobloem/
 
 _Wyoming implementation of Microsoft Speech Service Speech-to-Text._
 
-Main repository: [hugobloem/wyoming-microsoft-stt](https://github.com/hugobloem/wyoming-microsoft-stt)
+Main repository: [nuzayets/wyoming-microsoft-stt](https://github.com/nuzayets/wyoming-microsoft-stt)
 <!--
 
 Notes to developers after forking or using the github template feature:

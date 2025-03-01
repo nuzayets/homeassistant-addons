@@ -22,4 +22,4 @@ schema:
   update_languages: bool
   profanity: list(off|masked|removed)
 tmpfs: true
-image: "ghcr.io/hugobloem/{arch}-wyoming-microsoft-stt"
+image: "ghcr.io/nuzayets/{arch}-wyoming-microsoft-stt"
