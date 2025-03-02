@@ -2,8 +2,6 @@ ARG BUILD_FROM
 FROM ${BUILD_FROM}
 ARG BUILD_ARCH
 
-ARG MICROSOFT_STT_VERSION
-
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Install Microsoft-stt
@@ -19,7 +17,7 @@ RUN apt-get update \
     setuptools \
     wheel \
     && pip install --no-cache-dir \
-    https://github.com/nuzayets/wyoming-microsoft-stt/archive/refs/tags/v${MICROSOFT_STT_VERSION}.zip \
+    https://github.com/nuzayets/wyoming-microsoft-stt/archive/refs/heads/main.zip \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy files
